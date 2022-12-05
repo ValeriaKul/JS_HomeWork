@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(181, 245, 224);
+}
+
+#textarea {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+
+
