@@ -37,7 +37,7 @@
     box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.5);
     font-size: 15px;
     font-weight: 600;
-    background: linear-gradient(45deg, rgb(33, 59, 33), rgb(91, 240, 131));;
+    background: linear-gradient(45deg, rgb(33, 59, 33), rgb(91, 240, 131));
 }
 .products {
     padding: 10px;
@@ -54,14 +54,11 @@
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.5);
-    
 }
-
 .title {
     font-size: 30px;
     text-transform: uppercase;
 }
-
 .total p {
     padding: 5px;
     margin: 5px;
