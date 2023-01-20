@@ -66,7 +66,6 @@
     border: 2px solid black;
     border-radius: 0 15px ;
     max-width: 900px;
-    /* background-color: rgba(236, 253, 237, 0.716); */
     background: linear-gradient(-45deg, #95aba0, #d6fae8) ;
     box-shadow: 0 0 10px rgba(0, 0, 0, 5);
     color: rgba(27, 27, 27, 0.684);
@@ -75,8 +74,14 @@
     align-items: center;
 }
 
+.product:hover {
+    transition: .2s linear;
+    box-shadow: 900px 0 0 0 rgba(0,0,0,.3) inset;
+}
+
 .description {
     width: 95%;
+    
 }
 
 .post_title {
@@ -104,11 +109,13 @@
  .post_price {
     font-size: 22px;
     color: rgb(10, 110, 35);
+
 }
 
 .post_desc {
-    font-size: 18px;
+    font-size: 20px;
     font-style: italic;
+
 }
 
 .img {
@@ -120,6 +127,7 @@
 .box {
     margin: 40px 0;
 }
+
 
 
 
