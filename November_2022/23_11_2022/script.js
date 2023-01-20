@@ -50,9 +50,9 @@ formElem.addEventListener("submit", (event) => {
   const price = +priceInput.value;
   const amount = +amountInput.value;
   data.push({ title, price, amount });
-  formElem.title = "";
-  formElem.price = "";
-  formElem.amount = "";
+  titleInput.value = "";
+  priceInput.value = "";
+  amountInput.value = "";
   addToLocalStorage(title, price, amount);
   rerender();
 });
@@ -91,7 +91,6 @@ function createProductCard(title, price, amount) {
   return container;
 }
 
-rerender();
 
 function addToLocalStorage (title, price, amount)  {
   const data = getLocalStorage();
@@ -101,8 +100,8 @@ function addToLocalStorage (title, price, amount)  {
 };
 
 const getLocalStorage = () => {
-
   return localStorage.getItem("products")
   ? JSON.parse(localStorage.getItem("products"))
   : [];
 }
+rerender();
