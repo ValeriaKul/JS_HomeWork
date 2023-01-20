@@ -1,10 +1,10 @@
-const root = document.querySelector('.root');
 const form_txt = document.querySelector('.form_txt')
 const input_id = document.querySelector('.input_id');
 const form = document.querySelector('.form');
 const btn = document.querySelector('.btn');
+const box = document.querySelector('.box');
 
-form_txt.innerText = 'Products search form by ID:';
+form_txt.innerHTML = `<i>We have <b>products</b> with ID from <b>1</b> to <b>20</b>. You can find products by <b>ID</b> and <b>delete</b> them:</i>`;
 btn.innerText = 'Go!';
 
 
@@ -17,9 +17,9 @@ function createPost (dttm, title, price, description, image) {
     const img = document.createElement('img');
     const delete_btn = document.createElement('button');
     
-    p_tille.innerText = `Product: ${title}`;
-    p_price.innerText = `Price: ${price} $`;
-    p_desc.innerText = `About the product: ${description}`;
+    p_tille.innerHTML = `<strong>Product: </strong> ${title}`;
+    p_price.innerHTML = `Price: <b>${price}</b> $`;
+    p_desc.innerHTML = `<b>About the product:</b> ${description}`;
     delete_btn.innerText = 'Delete';
     img.src = image;
     
@@ -34,12 +34,13 @@ function createPost (dttm, title, price, description, image) {
     
     descr.append(p_tille, p_price, p_desc)
     container.append(descr, img, delete_btn);
-    root.append(container);
+    box.append(container);
 
     delete_btn.addEventListener("click", deleteProduct)
 }
 
 const showProducts = () => {
+    box.innerHTML = '';
     const products = localStorage.getItem("products")
     ? JSON.parse(localStorage.getItem("products"))
     : [];
@@ -70,7 +71,7 @@ const addProduct = (e) => {
         const productElement = e.target.parentElement;
         const id = productElement.id;
         removeFromLocalStorage(id);
-        
+        showProducts();
     };
 
     const getLocalStorage = () => {
@@ -80,7 +81,6 @@ const addProduct = (e) => {
     }
     
     const addToLocalStorage = (dttm, title, price, description, image) => {
-        
         const products = getLocalStorage();
         const newProduct = { dttm, title, price, description, image};
         products.push(newProduct);
