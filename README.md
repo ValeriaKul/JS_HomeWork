@@ -1,4 +1,11 @@
 
+
+[HW 07.11.2022](< https://valeriakul.github.io/JS_HomeWork/November_2022/07_11_2022>)
+<br/>
+
+[HW 09.11.2022](< https://valeriakul.github.io/JS_HomeWork/November_2022/09_11_2022>)
+<br/>
+
 [HW 23.11.2022](< https://valeriakul.github.io/JS_HomeWork/November_2022/23_11_2022>)
 <br/>
 
