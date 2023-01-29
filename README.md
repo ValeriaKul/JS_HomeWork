@@ -21,5 +21,6 @@
 [HW 18.01.2023](< https://valeriakul.github.io/cards-react/>)
 <br/>
 
-[HW 25.01.2023](< https://valeriakul.github.io/BasketHW25Jan2023//>)
+[HW 25.01.2023 GH-Pages](< https://valeriakul.github.io/BasketHW25Jan2023>) | [code](< https://github.com/ValeriaKul/BasketHW25Jan2023 >)
+Promo codes: lovereact - 15%, react - 5%, frontend - 50%
 <br/>
