@@ -24,3 +24,7 @@
 [HW 25.01.2023 GH-Pages](< https://valeriakul.github.io/BasketHW25Jan2023>) | [code](< https://github.com/ValeriaKul/BasketHW25Jan2023 >)
 Promo codes: lovereact - 15%, react - 5%, frontend - 50%
 <br/>
+
+[HW 16.02.2023 GH-Pages](< https://valeriakul.github.io/book-react/>)
+<br/>
+
