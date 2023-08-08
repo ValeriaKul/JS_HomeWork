@@ -28,3 +28,6 @@ Promo codes: lovereact - 15%, react - 5%, frontend - 50%
 [HW 16.02.2023 GH-Pages](< https://valeriakul.github.io/book-react/>)
 <br/>
 
+[HW 06.08.2023 GH-Pages](< https://valeriakul.github.io/velozavr/>)
+<br/>
+
